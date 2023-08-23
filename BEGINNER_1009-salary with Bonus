@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    char n,c,m,e;
+    scanf("%c%c%c%c",&n, &c, &m,&e);
+    double salary;
+    scanf("%lf",&salary);
+    double sale;
+    scanf("%lf",&sale);
+    int a = 15, b = 100;
+    double per = (sale * a)/b;
+    double total = per + salary;
+    printf("TOTAL = R$ %.2lf\n",total);
+    return 0;
+}
