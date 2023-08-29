@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    int age , y = 0, m = 0, d = 0;
+    scanf ("%d",&age);
+
+     y = age / 365;
+     age = age % 365;
+     m = age / 30;
+     d = age % 30;
+    printf("%d ano(s)\n",y);
+    printf("%d mes(es)\n",m);
+    printf("%d dia(s)\n",d);
+
+    return 0;
+}
