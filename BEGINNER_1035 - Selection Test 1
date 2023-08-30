@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+   int A, B, C, D;
+   scanf("%d%d%d%d",&A,&B,&C,&D);
+   int sum_cd = C+D;
+   int sum_ab = A+B;
+   if(B>C && D>A && sum_cd>sum_ab && A%2 == 0){
+    printf("Valores aceitos\n");
+   }
+   else
+     printf("Valores nao aceitos\n");
+
+    return 0;
+}
